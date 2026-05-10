@@ -1,0 +1,122 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CGI : Confederation Global Innovators</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css.css" />
+    <link rel="stylesheet" href="rescss.css" />
+    <script>
+        function toggleNav() {
+            var nav = document.getElementById("nav");
+            nav.classList.toggle("nav-active");
+        }
+    </script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="contain1">
+        <nav>
+            <div><span class="hb" onclick="toggleNav()"><b>☰</b></span></div>
+            <asp:Image ID="img1" runat="server" src="./images/cgi logo.png" alt="CGI Logo" CssClass="img" />
+        <ul class="breadcrumb" id="nav"><li></li>
+            <li><a href="Default.aspx" class="active">Home</a></li>
+            <li><a href="aboutus.aspx">About Us</a></li>
+                <li><a href="#">Leadership</a>
+                <ul class="dropdown">
+                <div class="nobread">
+                    <li><a href="chairman.aspx">Chairman</a></li>
+                    <li><a href="president.aspx">President</a></li>
+                    <li><a href="director.aspx">Director</a></li>
+                    <li><a href="council-of-innovators.aspx">Council Of Innovator</a></li>
+                </div>
+                </ul>
+            </li>
+            <li><a href="partners-associates.aspx">Partners & Associates</a></li>
+            <li><a href="global-chapters.aspx">Global Chapters</a></li>
+                <li><a href="#">More</a>
+                <ul class="dropdown">
+                <div class="nobread">
+                    <li><a href="economic-council.aspx">Economic Council</a></li>
+                    <li><a href="ipr-council.aspx">IPR Council</a></li>
+                    <li><a href="compliance-council.aspx">Compliance Council</a></li>
+                </div>
+                </ul>
+            </li>
+            <div><li><a href="Default.aspx#contact">Contact</a></li></div>
+        </ul>
+
+        </nav></div>
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+        <footer>
+                <div class="span">
+                    <h1><span class="sp">OFFICIAL</span> <span>SPONSERS</span></h1>
+
+                    <div class="spons">
+                    <span>
+                    <asp:Image ID="imgg5" runat="server" src="./images/chandigarh-university-seal.png" alt="Chandigarh University Seal" class="sponser1 images" />
+                    </span>
+
+                    <span>
+                    <asp:Image ID="imgg6" runat="server" src="./images/sewapoint.png" alt="Sewa Point" class="sponsers images" />
+                    </span>
+
+                    <span>
+                    <asp:Image ID="imgg7" runat="server" src="./images/cu-tbi-logo.png" alt="CU TBI Logo" class="sponsers images" />
+                    </span>
+                    </div>
+                <br /><br /><br /><br /><br />
+
+                </div>
+
+            <div class="footer">
+
+                <div class="newsletter" id="contact">JOIN NEWSLETTER</div>
+                <div class="nl">
+                  <asp:TextBox ID="t1" runat="server" placeholder="Enter Email id here ..." class="tb" />
+                  <asp:Button ID="b1" runat="server" Text="subscribe" CssClass="subscribe" />
+                </div>
+
+                <div class="ft">
+                    
+                <asp:Image ID="Image1" runat="server" src="./images/cgi logo.png" cssClass="im" alt="CGI Logo"/>
+                
+                <asp:Table ID="table1" runat="server" HorizontalAlign="center" width="50%" CssClass="table">
+                <asp:TableRow>
+                    <asp:TableCell></asp:TableCell>
+                    <asp:TableCell CssClass="off">OUR OFFICE</asp:TableCell>
+                    <asp:TableCell CssClass="off">OUR OFFICE</asp:TableCell>
+                </asp:TableRow>
+                <asp:TableRow>
+                    <asp:TableCell></asp:TableCell>
+                    <asp:TableCell CssClass="con">Chandigarh University CU-TBI office, Gharuan, Punjab 140413</asp:TableCell>
+                    <asp:TableCell CssClass="con">You should connect social area for Any update </asp:TableCell>
+                </asp:TableRow>
+                <asp:TableRow>
+                    <asp:TableCell></asp:TableCell><asp:TableCell></asp:TableCell>
+                    <asp:TableCell>
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-linkedin"></a></asp:TableCell>
+                </asp:TableRow>
+                </asp:Table>
+                </div>
+            </div>
+
+            <div class="end">© Confederation of Global Innovators 2019 - 2020</div>
+            </footer>
+
+    </form>
+</body>
+</html>
