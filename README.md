@@ -13,7 +13,6 @@
 ![HTML5](https://img.shields.io/badge/HTML5-Structure-orange)
 ![CSS3](https://img.shields.io/badge/CSS3-Styling-blue)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
-![Internship](https://img.shields.io/badge/Experience-Internship-success)
 ![Status](https://img.shields.io/badge/Status-Completed-green)
 
 </div>
@@ -22,155 +21,100 @@
 
 # 👩‍💻 About This Repository
 
-This repository contains frontend projects developed during my web development internship. Each project focuses on different aspects of frontend and web application development — from multi-page ASP.NET websites to interactive JavaScript applications and responsive UI components.
+This repository showcases frontend projects created during my web development internship journey. Each project focuses on practical implementation, frontend structure, UI development, and interactive web application concepts using modern web technologies.
 
-The projects helped me gain practical experience in:
+The projects helped me explore:
 - ASP.NET WebForms
-- JavaScript DOM manipulation
+- JavaScript interactivity
 - REST API integration
-- Responsive web design
-- Multi-page application structure
+- Multi-page website structure
+- Responsive UI development
+- DOM manipulation
+
+The repository reflects hands-on learning through real project development, experimentation, and building practical frontend applications from scratch.
 
 ---
 
-# 🛠️ Technologies Used
+# 🛠️ Tech Stack
 
-<div align="left">
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" width="50" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50" />
-
-</div>
-
-| Technology | Purpose |
-|------------|---------|
-| ASP.NET WebForms | Server-side web application framework |
-| C# | Backend logic & event handling |
-| HTML5 | Page structure |
-| CSS3 | Styling & layout |
-| JavaScript (ES6) | Dynamic interactivity |
-| REST API | Fetching external quiz data |
+- ASP.NET WebForms
+- C#
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- REST API
+- Visual Studio
+- VS Code
 
 ---
 
-# 📁 Projects Overview
+# 📂 Projects Included
 
-| # | Project | Folder | Responsive | Tech Stack |
-|---|---------|--------|------------|-------------|
-| 1 | CGI Website | `CGI-Website/` | ⚠️ Desktop-focused | ASP.NET, C#, CSS |
-| 2 | Quiz App | `Quiz-App/` | ✅ Fully responsive | HTML, CSS, JS, API |
-| 3 | ShopLane Product Page | `Shoplane-ASP-NET/` | ⚠️ Basic responsive | ASP.NET, C#, CSS |
+## 📁 CGI Website
 
----
+🔗 **Folder:** [CGI-Website/](https://github.com/TanuSharma08/cgi-webdev-internship/tree/main/CGI-Website)
 
-# 📂 Project 1: CGI Website
-
-📁 Folder: `CGI-Website/`
-
-A multi-page corporate website built using ASP.NET WebForms.
+A structured multi-page corporate website developed using ASP.NET WebForms and C#. The project focuses on reusable layouts, organized page architecture, and responsive frontend design concepts. It includes multiple informational sections, leadership pages, and interactive UI components.
 
 ### ✨ Features
 
-- Homepage with hero section & contact form
-- About Us page with vision & mission
-- Leadership profile pages
-- Council and committee pages
-- Event highlights & achievements section
-- Newsletter subscription section
-- Shared Master Page architecture
+- Homepage with hero section
+- About page
+- Leadership pages
+- Council & committee sections
+- Newsletter section
+- Shared Master Page layout
+- Multi-page website structure
 
-### 🛠️ Tech Stack
+### 🛠️ Built With
 
 `ASP.NET WebForms` `C#` `HTML5` `CSS3`
 
-### 📱 Responsiveness
-
-⚠️ Primarily designed for desktop screens.
-
 ---
 
-# 📂 Project 2: Quiz App
+## 📁 Quiz App
 
-📁 Folder: `Quiz-App/`
+🔗 **Folder:** [CGI-Website/](https://github.com/TanuSharma08/cgi-webdev-internship/tree/main/Quiz-App)
 
-An interactive Harry Potter trivia quiz application built using vanilla JavaScript and REST API integration.
+An interactive quiz application built using vanilla JavaScript and REST API integration. The project dynamically fetches quiz questions, renders them in real time, and calculates user scores instantly. It helped strengthen concepts like DOM manipulation, API handling, and interactive frontend behavior.
 
 ### ✨ Features
 
-- Fetches quiz questions from external API
+- API-based quiz questions
 - Dynamic question rendering
-- Radio button answer selection
 - Real-time score calculation
 - Interactive UI updates
+- DOM manipulation
 
-### 🛠️ Tech Stack
+### 🛠️ Built With
 
-`HTML5` `CSS3` `JavaScript (ES6)` `Fetch API`
-
-### 📱 Responsiveness
-
-✅ Fully responsive across desktop, tablet, and mobile devices.
+`HTML5` `CSS3` `JavaScript` `Fetch API`
 
 ---
 
-# 📂 Project 3: ShopLane Product Page
+## 📁 ShopLane Product Page
 
-📁 Folder: `Shoplane-ASP-NET/`
+🔗 **Folder:** [CGI-Website/](https://github.com/TanuSharma08/cgi-webdev-internship/tree/main/Shoplane-ASP-NET)
 
-An e-commerce product display page featuring an interactive product image gallery.
+A product showcase page inspired by modern e-commerce layouts and user interface design. The project includes interactive product image previews, styled product sections, and dynamic thumbnail selection behavior. It focuses on frontend structure, UI styling, and improving user interaction through clean design components.
 
 ### ✨ Features
 
-- Main product preview image
-- Thumbnail image gallery
-- Active image highlighting
+- Product image gallery
+- Active thumbnail selection
 - Product details section
-- Basic responsive layout
+- Interactive UI behavior
+- Styled product layout
 
-### 🛠️ Tech Stack
+### 🛠️ Built With
 
 `ASP.NET WebForms` `C#` `HTML5` `CSS3`
-
-### 📱 Responsiveness
-
-⚠️ Basic responsiveness implemented for smaller screens.
-
----
-
-# ✨ Skills Demonstrated
-
-| Skill | Project |
-|-------|---------|
-| ASP.NET WebForms | CGI Website, ShopLane |
-| Master Page Architecture | CGI Website |
-| REST API Integration | Quiz App |
-| DOM Manipulation | Quiz App |
-| Dynamic Content Rendering | Quiz App |
-| Interactive UI Components | ShopLane |
-| CSS Layout & Styling | All Projects |
-| Responsive Design | Quiz App, ShopLane |
 
 ---
 
 # 🚀 Getting Started
 
-## Prerequisites
-
-### For ASP.NET Projects
-
-- Visual Studio
-- .NET Framework 4.5+
-
-### For Quiz App
-
-- Any modern web browser
-
----
-
-# 📥 Clone the Repository
+## Clone the Repository
 
 ```bash
 git clone https://github.com/TanuSharma08/cgi-webdev-internship.git
@@ -182,70 +126,62 @@ cd cgi-webdev-internship
 
 ---
 
-# ▶️ Run Project 1: CGI Website
+# ▶️ Run CGI Website
 
 ```bash
 cd CGI-Website/
 ```
 
-- Open Visual Studio
+- Open the project in Visual Studio
 - Open any `.aspx` file
 - Press `F5` to run
 
 ---
 
-# ▶️ Run Project 2: Quiz App
+# ▶️ Run Quiz App
 
 ```bash
 cd Quiz-App/
 ```
 
-- Open `quiz.html` in any web browser
+- Open `quiz.html` in any browser
 
 ---
 
-# ▶️ Run Project 3: ShopLane Product Page
+# ▶️ Run ShopLane Product Page
 
 ```bash
 cd Shoplane-ASP-NET/
 ```
 
-- Open Visual Studio
+- Open the project in Visual Studio
 - Open `Default.aspx`
 - Press `F5` to run
 
 ---
 
-# 🎯 Internship Takeaways
+# 🎯 Internship Learnings
 
-- Built multi-page frontend applications
-- Learned ASP.NET WebForms fundamentals
-- Worked with REST APIs using JavaScript
-- Improved DOM manipulation skills
-- Practiced responsive web design
-- Managed multi-folder project structures
-- Gained practical frontend development experience
+- Built multi-page frontend projects
+- Worked with ASP.NET WebForms
+- Practiced JavaScript DOM manipulation
+- Integrated APIs into frontend applications
+- Improved frontend structure & styling skills
+- Learned project organization and UI development
 
 ---
 
 # 🤝 Contributing
 
-This repository primarily documents my internship learning experience, but suggestions and feedback are always welcome.
-
-1. Fork the repository
-2. Create a branch
+Suggestions and improvements are always welcome.
 
 ```bash
 git checkout -b suggestion/topic-name
 ```
 
-3. Commit your changes
-
 ```bash
 git commit -m "Add: suggestion"
 ```
-
-4. Open a Pull Request
 
 ---
 
