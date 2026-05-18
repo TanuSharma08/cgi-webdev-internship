@@ -74,7 +74,7 @@ A structured multi-page corporate website developed using ASP.NET WebForms and C
 
 ## 📁 Quiz App
 
-🔗 **Folder:** [CGI-Website/](https://github.com/TanuSharma08/cgi-webdev-internship/tree/main/Quiz-App)
+🔗 **Folder:** [Quiz-App/](https://github.com/TanuSharma08/cgi-webdev-internship/tree/main/Quiz-App)
 
 An interactive quiz application built using vanilla JavaScript and REST API integration. The project dynamically fetches quiz questions, renders them in real time, and calculates user scores instantly. It helped strengthen concepts like DOM manipulation, API handling, and interactive frontend behavior.
 
@@ -88,13 +88,13 @@ An interactive quiz application built using vanilla JavaScript and REST API inte
 
 ### 🛠️ Built With
 
-`HTML5` `CSS3` `JavaScript` `Fetch API`
+`HTML5` `CSS3` `JavaScript (ES6+ / Modern JS)` `Fetch API` `REST API` 
 
 ---
 
 ## 📁 ShopLane Product Page
 
-🔗 **Folder:** [CGI-Website/](https://github.com/TanuSharma08/cgi-webdev-internship/tree/main/Shoplane-ASP-NET)
+🔗 **Folder:** [Shoplane-ASP-NET/](https://github.com/TanuSharma08/cgi-webdev-internship/tree/main/Shoplane-ASP-NET)
 
 A product showcase page inspired by modern e-commerce layouts and user interface design. The project includes interactive product image previews, styled product sections, and dynamic thumbnail selection behavior. It focuses on frontend structure, UI styling, and improving user interaction through clean design components.
 
@@ -109,6 +109,17 @@ A product showcase page inspired by modern e-commerce layouts and user interface
 ### 🛠️ Built With
 
 `ASP.NET WebForms` `C#` `HTML5` `CSS3`
+
+---
+
+# 🎯 Internship Learnings
+
+- Built multi-page frontend projects
+- Worked with ASP.NET WebForms
+- Practiced JavaScript DOM manipulation
+- Integrated APIs into frontend applications
+- Improved frontend structure & styling skills
+- Learned project organization and UI development
 
 ---
 
@@ -160,17 +171,6 @@ cd Shoplane-ASP-NET/
 
 ---
 
-# 🎯 Internship Learnings
-
-- Built multi-page frontend projects
-- Worked with ASP.NET WebForms
-- Practiced JavaScript DOM manipulation
-- Integrated APIs into frontend applications
-- Improved frontend structure & styling skills
-- Learned project organization and UI development
-
----
-
 # 🤝 Contributing
 
 Suggestions and improvements are always welcome.
@@ -193,6 +193,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <div align="center">
 
-Made with ❤️ during my first web development internship
+Made with ❤️ during my first web development internship.
 
 </div>
